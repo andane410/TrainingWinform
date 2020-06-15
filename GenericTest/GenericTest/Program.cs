@@ -47,6 +47,7 @@ namespace GenericTest
             gInteger.Add(0);
             gInteger.Print();
 
+            gInteger.Print();
             gDouble.Add(10.0, 20.0, 30.0);
             gDouble.Print();
         }
