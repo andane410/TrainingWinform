@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormApp", "WinFormApp\Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "WinFormsApp2\Clock.csproj", "{0CE78C00-CB89-4100-850A-29DC63669F9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock2", "Clock2\Clock2.csproj", "{96CF0329-6627-42F6-BDF9-1640B26A5F7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonTest", "ButtonTest\ButtonTest.csproj", "{366C632E-4BF1-410E-A833-6CA1FECD4727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBox", "CheckBox\CheckBox.csproj", "{2F4A30C2-47FB-44E2-81E1-278113BEEB83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadiobuttonTestApp", "RadiobuttonTestApp\RadiobuttonTestApp.csproj", "{BA4C7630-EB13-4030-A5C2-3F04C9607B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBoxTest", "TextBoxTest\TextBoxTest.csproj", "{6EE1DF14-7C1E-4FF1-A4E0-C5E58AE02231}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +31,26 @@ Global
 		{0CE78C00-CB89-4100-850A-29DC63669F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CE78C00-CB89-4100-850A-29DC63669F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CE78C00-CB89-4100-850A-29DC63669F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96CF0329-6627-42F6-BDF9-1640B26A5F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CF0329-6627-42F6-BDF9-1640B26A5F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CF0329-6627-42F6-BDF9-1640B26A5F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CF0329-6627-42F6-BDF9-1640B26A5F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{366C632E-4BF1-410E-A833-6CA1FECD4727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{366C632E-4BF1-410E-A833-6CA1FECD4727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{366C632E-4BF1-410E-A833-6CA1FECD4727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{366C632E-4BF1-410E-A833-6CA1FECD4727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4A30C2-47FB-44E2-81E1-278113BEEB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4A30C2-47FB-44E2-81E1-278113BEEB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4A30C2-47FB-44E2-81E1-278113BEEB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4A30C2-47FB-44E2-81E1-278113BEEB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA4C7630-EB13-4030-A5C2-3F04C9607B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4C7630-EB13-4030-A5C2-3F04C9607B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4C7630-EB13-4030-A5C2-3F04C9607B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4C7630-EB13-4030-A5C2-3F04C9607B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE1DF14-7C1E-4FF1-A4E0-C5E58AE02231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE1DF14-7C1E-4FF1-A4E0-C5E58AE02231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE1DF14-7C1E-4FF1-A4E0-C5E58AE02231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE1DF14-7C1E-4FF1-A4E0-C5E58AE02231}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

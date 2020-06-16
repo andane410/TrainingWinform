@@ -4,22 +4,18 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsApp2
+namespace Clock2
 {
-    public partial class MainForm : Form
+    public partial class Form1 : Form
     {
-        public MainForm()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -28,16 +24,16 @@ namespace WinFormsApp2
             label1.Text = now.ToString("HH:mm:ss");
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            MessageBox.Show("폼 로드 시 발생");
-        }
-       
-        
-
-        private void MainForm_Activated(object sender, EventArgs e)
-        {
-            MessageBox.Show("폼 활성화 시 발생");
+            if (MessageBox.Show("진짜 닫을래?", "경고", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                e.Cancel = false;
+            }    
+            else
+            {
+                e.Cancel = true;
+            }
         }
     }
 }
